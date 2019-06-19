@@ -1,5 +1,5 @@
 {
-    "name": "casper",
+    "name": "bibliu-blog",
     "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "https://demo.ghost.io",
     "version": "2.10.2",
@@ -22,9 +22,9 @@
         "postship": "git fetch && gulp release"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Tom Bruining",
+        "email": "tom@bibliu.com",
+        "url": "https://bibliu.com"
     },
     "gpm": {
         "type": "theme",
