@@ -43,14 +43,58 @@ h6,
     font-weight: bold;
 }
 
-a {
+a,
+.post-full-content a
+{
     color: var(--purple);
+}
+
+.post-full-content a {
+  box-shadow: var(--purple) 0 -1px 0 inset;
+}
+
+.site-footer {
+  background: var(--darkblue);
 }
 
 .post-card {
   border-radius: 0;
 }
 
-.site-footer {
-  background: #2D3385;
+.site-header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw 4vw;
+  min-height: 200px;
+  max-height: 450px;
+  text-align: center;
+}
+
+.site-header:before, .site-header:after {
+  background: none;
+}
+
+.site-header {
+  background: #fff;
+  color: var(--darkgrey);
+}
+
+.nav li a {
+  color: var(--darkgrey);
+}
+
+.post-full-meta-date {
+  color: var(--midgrey);
+}
+
+.post-full-content blockquote {
+  border-left: 3px solid var(--green);
+}
+
+.author-card-button:hover {
+  border-color: var(--purple);
+  color: var(--purple);
+  text-decoration: none;
 }

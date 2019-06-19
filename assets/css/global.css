@@ -3,12 +3,13 @@
 
 :root {
     /* Colours */
-    --blue: #7FF1AB;
-    --green: #a4d037;
+    --blue: #3eb0ef;
+    --green: #7FF1AB;
     --purple: #604DAD;
     --yellow: #fecd35;
-    --red: #f05230;
-    --darkgrey: #2D3385;
+    --red: #FF4F4F;
+    --darkgrey: #1E1E1E;
+    --darkblue: #2D3385;
     --midgrey: #738a94;
     --lightgrey: #c5d2d9;
     --whitegrey: #e5eff5;
