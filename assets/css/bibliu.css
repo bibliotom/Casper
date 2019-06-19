@@ -1,0 +1,52 @@
+/* ==========================================================================
+   BibliU Styling: opinionated defaults
+   ========================================================================== */
+/* Bibliu Styling */
+
+@import "screen.css";
+
+body,
+h4, 
+h5, 
+h6,
+p,
+.post-card-excerpt, 
+.post-full-content, 
+.post-full-content table, 
+.site-header-content .author-meta, 
+.subscribe-overlay-description,
+.post-full-content h4,
+.post-full-content h5,
+.post-full-content h6 
+{
+  font-family:  'Poppins', Arial, Helvetica, sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+.post-full-content h1,
+.post-full-content h2,
+.post-full-content h3
+{
+    font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h4, 
+h5, 
+h6,
+.post-full-content h4,
+.post-full-content h5,
+.post-full-content h6
+{
+    font-weight: bold;
+}
+
+a {
+    color: var(--purple);
+}
+
+.post-card {
+  border-radius: 0;
+}

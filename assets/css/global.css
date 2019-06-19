@@ -3,12 +3,12 @@
 
 :root {
     /* Colours */
-    --blue: #3eb0ef;
+    --blue: #7FF1AB;
     --green: #a4d037;
     --purple: #604DAD;
     --yellow: #fecd35;
     --red: #f05230;
-    --darkgrey: #15171A;
+    --darkgrey: #2D3385;
     --midgrey: #738a94;
     --lightgrey: #c5d2d9;
     --whitegrey: #e5eff5;
@@ -483,25 +483,4 @@ h6 {
     margin: 1.5em 0 0.5em 0;
     font-size: 1.4rem;
     font-weight: 500;
-}
-
-/* ==========================================================================
-   BibliU Styling: opinionated defaults
-   ========================================================================== */
-
-h1, h2, h3 {
-    font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
-}
-
-h4, h5, h6 {
-    font-weight: bold;
-}
-
-h4, h5, h6, p {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-}
-
-a {
-    color: var(--purple);
 }
