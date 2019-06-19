@@ -484,3 +484,16 @@ h6 {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+/* ==========================================================================
+   BibliU Styling: opinionated defaults
+   ========================================================================== */
+
+h1, h2, h3 {
+    font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h4, h5, h6 {
+    font-weight: bold;
+}
