@@ -5,6 +5,10 @@
 
 @import "screen.css";
 
+body {
+  background: transparent none;
+}
+
 body,
 h4, 
 h5, 
@@ -61,6 +65,20 @@ a,
   border-radius: 0;
 }
 
+@media (min-width: 900px) {
+  .home-template .post-feed,
+  .tag-template .post-feed,
+  .author-template .post-feed {
+      margin-top: 0px;
+      padding-top: 0;
+  }
+  .home-template .site-nav {
+      position: relative;
+      top: 0px;
+  }
+}
+
+
 .site-header-content {
   display: flex;
   flex-direction: column;
@@ -83,6 +101,10 @@ a,
 
 .nav li a {
   color: var(--darkgrey);
+}
+
+.floating-header-logo {
+  letter-spacing: normal;
 }
 
 .post-full-meta-date {
